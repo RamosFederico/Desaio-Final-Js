@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venta de mates, termos, bombillas, bolsos materos con envios a toda la Argentina.
+    Contamos con la mejor variedad de diseños y equipos de mates.">
+    <meta name="keywords" content="MATE TERMOS BOMBILLA CANASTOS BOLSOS CAMIONERO IMPERIAL TORPEDO">
+    <title>Mates Ramos - Bombillas</title>
+    <!-- ---------- Box Icons ---------- -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ---------- Font Awesome ---------- -->
+    <script src="https://kit.fontawesome.com/ead0ae6dff.js" crossorigin="anonymous"></script>
+    <!-- ---------- Google Fonts ---------- -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- ---------- Animate on Scroll ---------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ---------- Bootstrap CSS ---------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">    
+    <!-- ---------- CSS ---------- -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../multimedia/logoSinFondo.png">
+
+</head>
+
+<body>
+    <!-- -------------------- Menú Navegación -------------------- -->
+    <nav class="navbar navbar-expand-lg navContenedor navbarMarron">
+        <div class="container-fluid">
+            <a class="navbar-brand navbar__logo" href="../index.html"><img src="../multimedia/logoSinFondo.png" alt="logo" width="65"
+                    height="60"></a>
+            <div class="hamburguesa">
+                <div class="contenedorCantidadMobile">
+                    <a href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="carrito.html">
+                        <div class="cantidadCarrito">0</div>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navbar-custom me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2 navbar__efectoMenu " href="../index.html">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2 navbar__efectoMenu" href="./mates.html">mates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2 navbar__efectoMenu" href="./termos.html">termos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2 navbar__efectoMenu" id="seccionActiva" href="./bombillas.html">bombillas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2 navbar__efectoMenu" href="./bolsos_materos.html">bolsos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2 navbar__efectoMenu" href="./combos.html">combos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2 navbar__efectoMenu" href="./contactanos.html">contactanos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__iconos collapse navbar-collapse">
+                <div class="contenedorCantidad">
+                    <a href="./carrito.html"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="./carrito.html">
+                        <div class="cantidadCarrito">0</div>
+                    </a>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i class='iredes face bx bxl-facebook'></i></a>
+                        <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer"><i class='iredes wpp bx bxl-whatsapp' ></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class='iredes ig bx bxl-instagram' ></i></a>
+                    </div>
+        </div>
+    </nav>
+    <section class="padreInfo" data-aos="fade-right" data-aos-duration="1000">
+        <div class="infoSecciones">
+            <img data-aos="fade-right" data-aos-duration="1000" class="img-fluid" src="../multimedia/bombillas/infoBombillas.jpg" alt="" width="300px" height="300px">
+            <div class="infoSecciones__col">
+                <h1 class="tituloPrimario">BOMBILLAS</h1>
+                <div class="barra"></div>
+                <p>
+                    <span class="negrita cremita">Cual elegir</span> <br>
+                    Las mejores bombillas están fabricadas con materiales nobles, como la alpaca, el acero inoxidable, quirúrgico o plata, son más resistentes, soportan bien un uso diario e intensivo, no transmiten sabores extraños y<span class="negrita"> tienen más vida útil</span>.
+                    Las ideales son las que tienen pico aplanado con boca ancha porque permiten que el agua llegue con mayor fluidez, facilitan la succión  y permiten que la temperatura sea ideal para la boca.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------- Cards Productos -------------------- -->
+    <div class="filtroProductos">
+        <p class="filtroProductos__texto">Filtrar por precio:</p>
+        <input id="precioMin" class="input1 inputPrecio" type="number" placeholder="Mínimo">
+        <p>-</p>
+        <input  id="precioMax" class="input2 inputPrecio" type="number" placeholder="Máximo">
+        <i id="filtro5" class="fas fa-chevron-circle-right iconoEnter"></i>
+    </div>
+    <div id="cardsProductos" class="row"></div>
+
+
+    <footer class="footer">
+        <a href="../index.html"><img src="../multimedia/logoSinFondo.png" alt="logo"></a>
+        <div class="footer__contacto">
+            <div>Contacto</div>
+            <p>Dirección: Av. SiempreViva 123</p>
+            <P>Teléfono: +541125789614</P>
+            <p>Email: MatesRamos@gmail.com</p>
+        </div>
+        <div class="footer__secciones">
+            <div class="footer__titulo">Secciones</div>
+            <a href="../index.html">Inicio</a>
+            <a href="mates.html">Mates</a>
+            <a href="termos.html">Termos</a>
+            <a href="bombillas.html">Bombillas</a>
+            <a href="bolsos_materos.html">Bolsos</a>
+            <a href="combos.html">Combos</a>
+        </div>
+        <div class="footer__redes">
+            <div class="footer__titulo" >Seguinos en nuestras redes sociales!</div>
+            <div class="footer__iconos">
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i class='iredes face bx bxl-facebook'></i></a>
+                <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer"><i class='iredes wpp bx bxl-whatsapp' ></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class='iredes ig bx bxl-instagram' ></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ---------- Animation on Scroll Scripts ---------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <!-- ---------- JQuery---------- -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- ---------- Bootstrap Scripts ---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <!-- ---------- Mi JS ---------- -->
+    <script src="../js/globales.js"></script>
+    <script src="../js/producto.js"></script>
+    <script src="../js/function.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/bombillas.js"></script>
+    <script src="../js/notiflix-aio.js"></script>
+    
+</body>
+
+</html>

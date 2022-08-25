@@ -1,0 +1,274 @@
+[
+    {
+        "id": 0,
+        "nombre": "Camionero Acero Cincelado",
+        "precio": 1200,
+        "img": "../multimedia/mates/camioneroAceroCincelado.jpg",
+        "tipo": "mate",
+        "cantidad": 1
+    },
+    {
+        "id": 1,
+        "nombre": "Camionero Acero Liso",
+        "precio": 1000,
+        "img": "../multimedia/mates/camioneroAceroLiso.jpg",
+        "tipo": "mate",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Camionero Alpaca Cincelado",
+        "precio": 2000,
+        "img": "../multimedia/mates/camioneroAlpacaCincelado.jpg",
+        "tipo": "mate",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Camionero Alpaca Liso",
+        "precio": 1800,
+        "img": "../multimedia/mates/camioneroAlpacaLiso.jpg",
+        "tipo": "mate",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Imperial Alpaca",
+        "precio": 3000,
+        "img": "../multimedia/mates/imperialAlpaca.jpg",
+        "tipo": "mate",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Torpedo Acero Cincelado",
+        "precio": 1200,
+        "img": "../multimedia/mates/torpedoAceroCincelado.jpg",
+        "tipo": "mate",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Torpedo Acero Liso",
+        "precio": 700,
+        "img": "../multimedia/mates/torpedoAceroLiso.jpg",
+        "tipo": "mate",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Torpedo Alpaca Liso",
+        "precio": 1100,
+        "img": "../multimedia/mates/torpedoAlpacaLiso.jpg",
+        "tipo": "mate",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Torpedo Aluminio Liso",
+        "precio": 500,
+        "img": "../multimedia/mates/torpedoAluminioLiso.jpg",
+        "tipo": "mate",
+        "cantidad": 1
+    },
+    {
+        "id":9,
+        "nombre": "Termo Bala",
+        "precio":1500,
+        "img":"../multimedia/termos/termoBala.jpg",
+        "tipo":"termo",
+        "cantidad": 1
+    },
+    {
+        "id":10,
+        "nombre": "Termo Acero 1L",
+        "precio":1450,
+        "img":"../multimedia/termos/termoDeAcero1l.jpg",
+        "tipo":"termo",
+        "cantidad": 1
+    },
+    {
+        "id":11,
+        "nombre": "Termolar R-Evolution 1L",
+        "precio":3800,
+        "img":"../multimedia/termos/termolarr-evolution1l.jpg",
+        "tipo":"termo",
+        "cantidad": 1
+    },
+    {
+        "id":12,
+        "nombre": "Termo Media Manija",
+        "precio":1800,
+        "img":"../multimedia/termos/termoMediaManija.jpg",
+        "tipo":"termo",
+        "cantidad": 1
+    },
+    {
+        "id":13,
+        "nombre": "Termo Waterdog 750cc",
+        "precio":2200,
+        "img":"../multimedia/termos/waterdog750.jpg",
+        "tipo":"termo",
+        "cantidad": 1
+    },
+    {
+        "id":14,
+        "nombre": "COMBO COMPLETO 2",
+        "precio":5600,
+        "img":"../multimedia/combos/comboCompleto2.jpg",
+        "tipo":"combo",
+        "cantidad": 1
+    },
+    {
+        "id":15,
+        "nombre": "COMBO COMPLETO 3",
+        "precio":4800,
+        "img":"../multimedia/combos/comboCompleto3.jpg",
+        "tipo":"combo",
+        "cantidad": 1
+    },
+    {
+        "id":16,
+        "nombre": "Termo + Camionero + Bombilla 1",
+        "precio":6500,
+        "img":"../multimedia/combos/mediaManijaCamioneroBombilla.jpg",
+        "tipo":"combo",
+        "cantidad": 1
+    },
+    {
+        "id":17,
+        "nombre": "Termo + Torpedo + Bombilla 1",
+        "precio":5600,
+        "img":"../multimedia/combos/mediaManijaTorpedoBombilla1.jpg",
+        "tipo":"combo",
+        "cantidad": 1
+    },
+    {
+        "id":18,
+        "nombre": "Termo + Torpedo + Bombilla 2",
+        "precio":5600,
+        "img":"../multimedia/combos/mediaManijaTorpedoBombilla2.jpg",
+        "tipo":"combo",
+        "cantidad": 1
+    },
+    {
+        "id":19,
+        "nombre": "Torpedo + Pico Loro",
+        "precio":2500,
+        "img":"../multimedia/combos/torpedoPicoLoro.jpg",
+        "tipo":"combo",
+        "cantidad": 1
+    },
+    {
+        "id":20,
+        "nombre": "Camionero + Pico Loro",
+        "precio":2200,
+        "img":"../multimedia/combos/camioneroPicoLoro.jpg",
+        "tipo":"combo",
+        "cantidad": 1
+    },
+    {
+        "id":21,
+        "nombre": "Bombilla Cincelada de Alpaca",
+        "precio":1200,
+        "img":"../multimedia/bombillas/cinceladaAlpaca.jpg",
+        "tipo":"bombilla",
+        "cantidad": 1
+    },
+    {
+        "id":22,
+        "nombre": "Bombilla Lisa de Alpaca",
+        "precio":1000,
+        "img":"../multimedia/bombillas/lisaAlpaca.jpg",
+        "tipo":"bombilla",
+        "cantidad": 1
+    },
+    {
+        "id":23,
+        "nombre": "Bombilla Pico de Loro de Acero",
+        "precio":1300,
+        "img":"../multimedia/bombillas/picoLoroAcero.jpg",
+        "tipo":"bombilla",
+        "cantidad": 1
+    },
+    {
+        "id":24,
+        "nombre": "Bombilla Pico de Loro de Alpaca",
+        "precio":1400,
+        "img":"../multimedia/bombillas/picoLoroAlpaca.jpg",
+        "tipo":"bombilla",
+        "cantidad": 1
+    },
+    {
+        "id":25,
+        "nombre": "Bombilla Pico de Rey de Alpaca",
+        "precio":1800,
+        "img":"../multimedia/bombillas/picoReyAlpaca.jpg",
+        "tipo":"bombilla",
+        "cantidad": 1
+    },
+    {
+        "id":26,
+        "nombre": "Bombilla Niquelada con Boquilla",
+        "precio":800,
+        "img":"../multimedia/bombillas/niqueladaConBoquilla.jpg",
+        "tipo":"bombilla",
+        "cantidad": 1
+    },
+    {
+        "id":27,
+        "nombre": "Bolso Matero 4x4",
+        "precio":800,
+        "img":"../multimedia/bolsos/BolsoMatero4x4-1.jpg",
+        "tipo":"bolso",
+        "cantidad": 1
+    },
+    {
+        "id":28,
+        "nombre": "Bolso Matero 4x4",
+        "precio":1395,
+        "img":"../multimedia/bolsos/BolsoMatero4x4-2.jpg",
+        "tipo":"bolso",
+        "cantidad": 1
+    },
+    {
+        "id":29,
+        "nombre": "Bolso Matero 4x4",
+        "precio":1395,
+        "img":"../multimedia/bolsos/BolsoMatero4x4-3.jpg",
+        "tipo":"bolso",
+        "cantidad": 1
+    },
+    {
+        "id":30,
+        "nombre": "Bolso Matero 4x4",
+        "precio":1395,
+        "img":"../multimedia/bolsos/BolsoMatero4x4-4.jpg",
+        "tipo":"bolso",
+        "cantidad": 1
+    },
+    {
+        "id":31,
+        "nombre": "Bolso tipo Portafolio",
+        "precio":2000,
+        "img":"../multimedia/bolsos/bolsoPortafolio1.jpg",
+        "tipo":"bolso",
+        "cantidad": 1
+    },
+    {
+        "id":32,
+        "nombre": "Bolso tipo Portafolio",
+        "precio":2000,
+        "img":"../multimedia/bolsos/bolsoPortafolio2.jpg",
+        "tipo":"bolso",
+        "cantidad": 1
+    },
+    {
+        "id":33,
+        "nombre": "Bolso tipo Portafolio",
+        "precio":2000,
+        "img":"../multimedia/bolsos/bolsoPortafolio3.jpg",
+        "tipo":"bolso",
+        "cantidad": 1
+    }
+]
