@@ -1,0 +1,216 @@
+#carrito {
+  color: black;
+  min-height: 100vh;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    padding: 10px;
+}
+
+
+.contenedorDatos {
+  display: flex;
+justify-content: space-between;
+  align-items: center;
+  height: 11.5rem;
+  width: 1100px;
+  background-color: $gris;
+  font-size: 24px;
+  font-weight: 400;
+  .nombreProducto {
+    width: 376px;
+    padding-right: 5%;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .precioProducto {
+    padding-right: 10%;
+    min-width: 0;
+    white-space: nowrap;
+  }
+  .contenedorImg {
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    padding-right: 5%;
+    width: 225px;
+  }
+  .imgProducto {
+    height: 299px;
+    width: 225px;
+ 
+  }
+  .contador {
+    display: flex;
+    align-items: center;
+    padding-right:   5%;
+    .contador__iconos {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+        img{
+            cursor: pointer;
+        }
+    }
+    .cantProductos {
+      padding-right: 10px;
+    }
+  }
+}
+
+.iconoEliminar {
+  height: 100%;
+
+  cursor: pointer;
+}
+.padreEliminar{
+  padding-left: 50px;
+}
+
+.finalCarrito{
+  max-width: 1100px;
+  padding: 0px 20px;
+  margin: 100px auto 0px auto;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .volverCarrito{
+    cursor: pointer;
+    color: $marronClaro;
+    font-size: 24px;
+  }
+
+}
+.mensajeCarrito{
+  font-size: 24px;
+  margin-top: 250px;
+  text-align: center;
+}
+
+.volverCarrito2{
+  cursor: pointer;
+  color: $marronClaro;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+.add-to-cart {
+  cursor: pointer;
+}
+.hamburguesa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorCantidadMobile{
+  display: none;
+  position: relative;
+  width: 49.75px;
+  .cantidadCarrito{
+    background-color: rgb(190, 188, 188);
+  }
+}
+.contenedorCantidad{
+  position: relative;
+  margin-right: 10px;
+  width: 49.75px;
+}
+
+.cantidadCarrito{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: -8px;
+  left: 20px;
+  user-select: none;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+
+/* ------ Imágenes Carrito ------ */
+
+.contenedorImg .img-termo{
+  height: 215px;
+  transform: translateX(20px);
+
+}
+.contenedorImg .img-bombilla{
+  height: 220px;
+}
+.contenedorImg .img-combo{
+  height: 250px;
+  transform: translateX(30px);
+}
+
+@media screen and (max-width: 950px){
+  .contenedorDatos {
+    max-width: auto;
+    min-width: 200px;
+    font-size: 16px;
+    .imgProducto{
+      height: 200px;
+      width: auto;
+
+    }
+    .img-mate{
+      transform: translateX(-30px);
+    }
+    .img-combo{
+      transform: translateX(-10px);
+    }
+    .contenedorImg{
+      overflow: hidden;
+      height: 100%;
+      display: initial; 
+      width: auto;
+      padding-right: 0px;
+      display: block;
+    }
+    .nombreProducto {
+      width: auto;
+    }
+}
+.contador__iconos{
+  img{
+    height: 20px;
+  }
+}
+  .padreEliminar{
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 590px){
+  .iconoEliminar{
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 572px){
+  .contenedorDatos .contenedorImg{
+    display: none;
+  }
+  .contenedorDatos{
+    .nombreProducto{
+      padding-left: 5%;
+      white-space: unset;
+    }
+  }
+}

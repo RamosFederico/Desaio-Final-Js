@@ -1,0 +1,159 @@
+/* --------------- Cards - Productos --------------- */
+
+
+
+
+.product-grid{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    border-radius: 0px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.row{
+    padding: 40px;
+}
+.productoCard{
+    margin-bottom: 30px;
+}
+.product-grid .product-image{ position: relative; }
+.product-grid .product-image a.image{ display: block; }
+.product-grid .product-image img{
+    width: 100%;
+    height: auto;
+}
+.product-grid .product-sale-label{
+    color: $marron;
+    background-color: $amarillo;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 6px 12px;
+    border-radius: 0 0 0 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.product-grid .product-content{ padding: 12px 0 0; }
+.product-grid .title{
+    color: #555;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 6px;
+}
+.product-grid .title a{
+    color: $marron;
+    transition: all 0.3s ease 0s;
+}
+.product-grid .title a:hover{ color: $cremita; }
+.product-grid .price{
+    color: #606060;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+.product-grid .price span{
+    color: #8f8f8f;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin: 0 5px 0 0;
+}
+.product-grid .add-to-cart{
+    color: #555;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1) inset;
+    display: block;
+    transition: all 0.5s ease;
+}
+.product-grid:hover .add-to-cart{
+    color: black;
+    background-color: $cremita;
+}
+.product-content{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+/*------ Filtro Productos ------*/
+.filtroProductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    p{
+        color: black;
+        margin-right: 0.5%;
+    }
+    input{
+        height: 45px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .input1{
+        margin-left: 2%;
+        margin-right: 0.5%;
+    }
+    .filtroProductos__texto{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .iconoEnter{
+        color: $marronClaro;
+        font-size: 25px;
+        margin-left: 1.5%;
+        cursor: pointer;
+    }
+}
+
+.mensajeFiltro{
+    color: $marronClaro;
+    font-size: 24px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+
+@media screen and (max-width: 990px){
+    .product-grid{ margin: 0 0 30px; }
+}
+
+@media screen and (max-width: 720px){
+.filtroProductos{
+    flex-direction: column;
+    .filtroProductos__texto{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .input1{
+        margin: 0px;
+    }
+    .iconoEnter{
+        margin-top: 10px;
+    }
+}
+}

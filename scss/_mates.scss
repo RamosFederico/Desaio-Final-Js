@@ -1,0 +1,152 @@
+
+/* --------------- Cards - Info Mates --------------- */
+.infoMates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    & .infoMates__card:nth-child(2){
+        p{
+            padding: 0px 29px;
+        }
+    }
+    & .infoMates__card:nth-child(3){
+        p{
+            padding: 0px 26px;
+        }
+    }
+    h1,h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: $amarillo;
+    }
+    p {
+        color: white;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .infoMates__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 25rem;
+        height: 31.25rem;
+        background-color: $marron;
+        padding: 20px;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    }
+}
+
+/* --------------- Personaliza tu mate - Grabados --------------- */
+.infoGrabados{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 6%;
+    margin-top: 60px;
+    .corto{
+        display: none;
+    }
+    h3{
+        color: $marron;
+        margin-bottom: 0px;
+        line-height:normal;
+    }
+    p{
+        color: black;
+        font-weight: 400;
+        font-size: 1.3em;
+        text-align: justify;
+    }
+    .infoGrabados__col{
+        display: flex;
+        flex-direction: column;
+        padding-right: 3.125rem;
+        .barra{
+            height: 2px;
+        }
+    }
+    .infoGrabados__boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.75rem;
+        height: 2.25rem;
+        background-color: $marronClaro;
+        color: white;
+        font-weight: 600;
+        margin-top: 30px;
+        font-size: 18px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        transition: 0.3s;
+        &:hover{
+            background-color: $marron;
+            color: $amarillo;
+            transition: ease-in-out 0.3s;
+        }
+    }
+}
+.imgGrabados{
+    display: grid;
+    grid-template-columns: repeat(2,220px);
+    img{
+        width: 220px;
+        height: 220px;
+    }
+}
+@media only screen and (min-width: 1700px){
+    .infoGrabados{
+        padding: 0px 12%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .infoMates__card{
+        margin-top: 2.5rem;
+    }
+    .infoMates{
+        p{
+            text-align: justify;
+            padding: 0px 20px;
+        }
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 800px){
+    .infoMates__card:nth-child(3){
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1152px){
+    .infoGrabados{
+        flex-wrap: wrap;
+        .infoGrabados__col{
+            margin-bottom: 20px;
+            padding-right: 0px;
+        }
+    }
+    .imgGrabados{
+        grid-template-columns: repeat(2,auto);
+            img{
+                width: 100%;
+                height: 100%;
+            }
+    }
+}
+@media only screen and (max-width: 600px){
+    .infoGrabados{
+        .corto{
+            display: block;
+        }
+        .largo{
+            display: none;
+        }
+        h3{
+            text-align: center;
+        }
+    }
+}

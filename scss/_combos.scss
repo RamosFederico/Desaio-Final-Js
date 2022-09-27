@@ -1,0 +1,102 @@
+/* --------------- Combos --------------- */
+.infoCombos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #EBEBEB;
+    padding: 60px 30px;
+    flex-wrap: wrap;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    img{
+        width: 500px;
+        height: 500px;
+    }
+    h1{
+        font-weight: bold;
+        color: black;
+        font-size: 85px;
+        margin-bottom: 22px;
+        line-height: 75%;
+    }
+    p{
+        color: #3D3D3D;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    .infoCombos__col{
+        width: 460px;
+        height: auto;
+        margin-right: 80px;
+        .infoCombos__titulo{
+            display: block;
+            color: $cremita;
+        }
+    }
+    .infoCombos__botones{
+        display: flex;
+        font-size: 14px;
+        color: black;
+        font-weight: 700;
+        margin-top: 45px;
+        .infoCombosBoton{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            padding: 10px 5px;
+            transition: 0.3s;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            &:hover{
+                background-color: $marron;
+                color: $amarillo;
+                transition: ease-in-out 0.3s;
+            }
+        }
+        .b1{
+            background-color: #CD9462;
+            margin-right: 7px;    
+        }
+        .b2{
+            background-color: #925E46;
+            margin-right:0px;
+        }
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .infoCombos{
+        text-align: center;
+        .infoCombos__col{
+            margin-bottom: 20px;
+            margin-right: 0px;
+            h1{
+                margin-top: 70px;
+            }
+        }
+        .infoCombos__botones{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+@media only screen and (max-width: 450px) {
+    .infoCombos{
+        p{
+            text-align: justify;
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .infoCombos{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+

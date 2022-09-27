@@ -1,0 +1,63 @@
+.padreInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoSecciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    width: 90%;
+    background-color: $marron;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    .infoSecciones__col{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            text-align: justify;
+            font-size: 1.3rem;
+        }
+    }  
+}
+@media only screen and (max-width: 660px) {
+    .infoSecciones{
+        width: 95%;
+        .infoSecciones__col{
+            margin: 0px;
+            width: 90%;
+            h1{
+                text-align: center;
+            }
+        }
+    }
+} 
+@media only screen and (max-width: 995px) {
+   .infoSecciones{
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       padding: 25px 0px;
+    .infoSecciones__col{
+       display: inline-block;
+       width: 100%;
+       margin-top: 40px;
+       margin-left: 0px;
+       text-align: center;
+       padding: 0px 5%;
+   }
+}
+}
+.barra{
+    content: '';
+    background-color: $cremita;
+    width: 100%;
+    height: 2.5px;
+    border-radius: 1000px;
+    margin-bottom: 20px;
+}

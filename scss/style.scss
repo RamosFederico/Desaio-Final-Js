@@ -1,0 +1,98 @@
+/* ----------------------ETIQUETAS----------------------*/
+// PALETA
+$amarillo: #FFDF91;
+$marron: #331C08;
+$marronClaro: #91684a;
+$cremita: #eaac7f;
+$gris: #D8D8D8;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: normal;
+}
+html, body {
+    overflow-x: hidden;
+    }
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: white;
+    /*Light 300 Regular 400*/
+}
+h1,
+h2 {
+    line-height: normal;
+    margin: 0;
+}
+
+p {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import "./index";
+@import "./footer";
+@import "./mates";
+@import "./combos";
+@import "./contactanos";
+@import "./infoSecciones";
+@import "./productos";
+@import "./carrito";
+@import "./mediaQueries";
+
+/* ----------------------Divisor Video----------------------*/
+.video {
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(80%);
+}
+/* ----------------------CLASES MISCELANEAS----------------------*/
+.bodyColor{
+    background-color: #E9E8E7;
+}
+
+.tituloPrimario{
+    font-family: 'Josefin Sans', sans-serif;
+    color: $amarillo;
+    font-weight: 400;
+    font-size: 2.2em;
+}
+
+.cremita{
+    color: $cremita;
+}
+/* ----------------- ICONOS -------------------- */
+.iredes{
+    color: white;
+    font-size: 30px;
+}
+.face:hover{
+    color: #3b5998;
+}
+.wpp:hover{
+    color: #4FCE5D;
+}
+.ig:hover{
+    color: #C13584;
+}
+.marr{
+    color: $marron;
+}
+
+/* --------------- ------------------ */
+
+#ingresarProductos{
+    text-align: center;
+    margin-top: 60px;
+}
+

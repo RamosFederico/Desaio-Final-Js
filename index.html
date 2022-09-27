@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venta de mates, termos, bombillas, bolsos materos con envios a toda la Argentina.
+    Contamos con la mejor variedad de diseños y equipos de mates.">
+    <meta name="keywords" content="MATE TERMOS BOMBILLA CANASTOS BOLSOS CAMIONERO IMPERIAL TORPEDO">
+    <title>Mates Ramos</title>
+    <!-- ---------- Box Icons ---------- -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ---------- Font Awesome ---------- -->
+    <script src="https://kit.fontawesome.com/ead0ae6dff.js" crossorigin="anonymous"></script>
+    <!-- ---------- Google Fonts ---------- -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- ---------- Animate on Scroll ---------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ---------- Bootstrap CSS ---------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- ---------- CSS ---------- -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./multimedia/logoSinFondo.png">
+</head>
+
+<body>
+    <!-- -------------------- Header / Navbar -------------------- -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navContenedor">
+            <div class="container-fluid">
+                <a class="navbar-brand navbar__logo" href="./index.html"><img src="./multimedia/logoSinFondo.png" alt="logo"
+                        width="65" height="60"></a>
+                <div class="hamburguesa">
+                    <div class="contenedorCantidadMobile">
+                        <a href="pages/carrito.html"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="pages/carrito.html">
+                            <div class="cantidadCarrito">0</div>
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link navbar__efectoMenu" id="seccionActiva" href="./index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar__efectoMenu" href="./pages/mates.html">mates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar__efectoMenu" href="./pages/termos.html">termos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar__efectoMenu" href="./pages/bombillas.html">bombillas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar__efectoMenu" href="./pages/bolsos_materos.html">bolsos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar__efectoMenu" href="./pages/combos.html">combos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar__efectoMenu" href="./pages/contactanos.html">contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar__iconos collapse navbar-collapse">
+                    <div class="contenedorCantidad">
+                        <a href="./pages/carrito.html"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="./pages/carrito.html">
+                            <div class="cantidadCarrito">0</div>
+                        </a>
+                    </div>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i class='iredes face bx bxl-facebook'></i></a>
+                            <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer"><i class='iredes wpp bx bxl-whatsapp' ></i></a>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class='iredes ig bx bxl-instagram' ></i></a>
+                    </div>
+                </div>
+        </nav>
+        <div class="header__texto">
+            <h1 class="header__titulo" data-aos="fade-right" data-aos-duration="1000">Tomar mate,<br>es siempre una <span style="color: #FFDF91;">buena idea.</span>
+            </h1>
+            <p data-aos="fade-right" data-aos-duration="1000">Tenemos la mayor variedad de mates, termos y bombillas. <br>
+                Descubre y explora nuestras categorías de productos y <br>
+                elegí el combo matero ideal para vos!</p>
+            <a href="#secondSection">
+                <div class="header__boton hvr-forward">Sobre nosotros</div>
+            </a>
+        </div>
+    </header>
+
+    <!-- -------------------- First Section / Categorías de productos -------------------- -->
+    <section id="firstSection">
+        <article class="categoria">
+            <img src="./multimedia/mates.jpg" alt="mate camionero y bombilla" class="oscurecer">
+            <div class="categoria__nombre">MATES</div>
+            <div><a href="./pages/mates.html" class="categoria__boton">VER PRODUCTOS</a></div>
+        </article>
+        <article class="categoria">
+            <img src="./multimedia/termos.jpg" alt="cebando mate" class="oscurecer">
+            <div class="categoria__nombre">TERMOS</div>
+            <div><a href="./pages/termos.html" class="categoria__boton">VER PRODUCTOS</a></div>
+        </article>
+        <article class="categoria">
+            <img src="./multimedia/bombillas.jpg" alt="mate y bombilla" class="oscurecer">
+            <div class="categoria__nombre">BOMBILLAS</div>
+            <div><a href="./pages/bombillas.html" class="categoria__boton">VER PRODUCTOS</a></div>
+        </article>
+        <article class="categoria">
+            <img src="./multimedia/bolsos.jpg" alt="bolsos" class="oscurecer">
+            <div class="categoria__nombre">BOLSOS</div>
+            <div><a href="./pages/bolsos_materos.html" class="categoria__boton">VER PRODUCTOS</a></div>
+        </article>
+        <article class="categoria">
+            <img src="./multimedia/combos.jpg" alt="combo de bolso mate y termo" class="oscurecer">
+            <div class="categoria__nombre">COMBOS</div>
+            <div><a href="./pages/combos.html" class="categoria__boton">VER PRODUCTOS</a></div>
+        </article>
+        <article class="categoria">
+            <img src="./multimedia/grabadocuero.jpg" alt="grabado sobre cuero de mate" class="oscurecer">
+            <div class="categoria__nombre">GRABADOS</div>
+            <div><a href="./pages/mates.html#grabados" class="categoria__boton">VER PRODUCTOS</a></div>
+        </article>
+    </section>
+
+    <!-- -------------------- Divisor / Banner El Mate -------------------- -->
+    <div class="elmate">
+        <div class="centrar">
+            <h2 class="elmate__titulo" data-aos="fade-up" >EL MATE</h2>
+            <p class="elmate__texto" data-aos="fade-up">Ritual eterno. El mate. Esencial en una reunión familiar o juntada con amigos,
+                siempre está presente. <br>
+                El agua, la yerba, la bombilla y hasta la forma de cebarlo puede afectar el resultado final. <br>
+                Cambia la forma en que se lo prepara, algunos lo prefieren dulce, otros amargos. <br> Lo que es seguro
+                es que en la mayoría de las casas hay un mate.</p>
+            <div data-aos="fade-up">
+                <a href="./pages/mates.html" class="elmate__boton">
+                    <div>NUESTROS MATES</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------- Second Section / Nosotros -------------------- -->
+    <section id="secondSection">
+        <img class="nosotros__mate" data-aos="fade-right" data-aos-duration="1500" src="./multimedia/nosotrosImagen2.png" alt="mate torpedo con bombilla">
+        <div class="nosotros__texto">
+            <h3 data-aos="fade-up">¿ PORQUÉ CONFIAR EN NOSOTROS ?</h3>
+            <p data-aos="fade-up">
+                <span class="negrita">Mates Ramos</span> es una empresa familiar nacida en 2015 en Rosario, Santa Fe,
+                creada con una gran dedicación y trabajo. Podrás encontrar una gran variedad de mates elaborados
+                por <span class="negrita">procesos artesanales</span>. Podés personalizar nuestros mates a tu
+                gusto, consultanos y comentanos que grabado te gustaría tener en tu mate!
+                <br><br>
+                Al estar realizados de manera artesanal cada mate que ofrecemos tiene una distinción con respecto a
+                otros modelos, <span class="negrita">¿Qué quiere decir?</span>, que no tiene ningún proceso
+                mecánico de elaboración que lo haga igual a otro, por eso tranquilamente podes decir que éste,
+                <span class="negrita">es tu mate!</span>
+                <br><br>
+                En <span class="negrita">Mates Ramos</span> creemos que cada mate es único, por eso siempre trabajamos
+                pensando en la <span class="negrita">satisfacción de nuestros clientes.</span>
+            </p>
+        </div>
+        <img class="nosotrosArriba" src="./multimedia/nosotrosArriba.jpg" alt="yerba esparcida">
+        <img class="nosotrosAbajo" src="./multimedia/nosotrosAbajo.jpg" alt="yerba esparcida">
+    </section>
+
+    <!-- -------------------- Divisor / Video -------------------- -->
+    <video src="./multimedia/video_cebando.mp4" class="video" autoplay muted loop></video>
+
+
+    <!-- -------------------- Third Section / Cards ENVIOS PAGOS CONTACTO -------------------- -->
+    <section id="thirdSection">
+        <div data-aos="fade-right" data-aos-duration="1000">
+            <img src="./multimedia/express-delivery.png" alt="vehiculo de envios">
+            <h4>ENVIOS <span style="display: block;">A TODO EL PAIS</span></h4>
+            <p>Elegí Mercado Envíos y</p> 
+            <p>seguí tu compra hasta que</p>
+            <p>llegue a tus manos.</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <img src="./multimedia/payment-method.png" alt="pago en efectivo">
+            <h4>PAGO CON TARJETA<span style="display: block;"> O EN EFECTIVO</span></h4>
+            <p>Con Mercado Pago, tenés </p>
+            <p>cuotas sin interés con tarjeta o</p>
+            <p>efectivo en puntos de pago.</p>
+            <p>¡Y siempre es seguro!</p>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000">
+            <img src="./multimedia/contacts.png" alt="agenda de contactos">
+            <h4>CONTACTATE <span style="display: block;">CON NOSOTROS</span></h4>
+            <p>Contactanos a través de</p>
+            <p>nuestras redes sociales.</p>
+            <p>Visitá la sección correspondiente</p>
+            <p>en el menú para más información.</p>
+        </div>
+    </section>
+
+    <!-- --------------- Grid Fotos --------------- -->
+
+    <div class="gridFotos">
+        <div class="tarjeta tarjetaAlta tarjetaAncha" style="background-image: url(./multimedia/grid/1.jpg);"></div>
+        <div class="tarjeta tarjetaAlta" style="background-image:url(./multimedia/grid/2.jpg) ;"></div>
+        <div class="tarjeta" style="background-image:url(./multimedia/grid/3.jpg) ;"></div>
+        <div class="tarjeta" style="background-image:url(./multimedia/grid/4.jpg) ;"></div>
+        <div class="tarjeta" style="background-image:url(./multimedia/grid/5.jpg) ;"></div>
+        <div class="tarjeta normal6" style="background-image:url(./multimedia/grid/6.jpg) ;"></div>
+        <div class="tarjeta tarjetaAlta t1808" style="background-image:url(./multimedia/grid/6.jpg) ;"></div>
+        <div class="tarjeta tarjetaAncha normal7 " style="background-image:url(./multimedia/grid/7.jpg) ;"></div>
+        <div class="tarjeta tarjetaAncha tarjetaAlta t1295 " style="background-image:url(./multimedia/grid/7.jpg) ;"></div>
+        <div class="tarjeta normal8" style="background-image:url(./multimedia/grid/8.jpg) ;"></div>
+        <div class="tarjeta tarjetaAlta t783" style="background-image:url(./multimedia/grid/8.jpg) ;"></div>
+        <div class="tarjeta normal9" style="background-image:url(./multimedia/grid/9.jpg) ;"></div>
+        <div class="tarjeta tarjetaAlta t1808 t1038" style="background-image:url(./multimedia/grid/9.jpg) ;"></div>
+        <div class="tarjeta tarjetaAlta normal10 " style="background-image:url(./multimedia/grid/10.jpg) ;"></div>
+        <div class="tarjeta tarjetaAlta tarjetaAncha t1560 " style="background-image:url(./multimedia/grid/10.jpg) ;"></div> 
+        <div class="tarjeta tarjetaAncha normal11" style="background-image:url(./multimedia/grid/11.jpg) ;"></div>
+        <div class="tarjeta tarjetaAncha tarjetaAlta t1560" style="background-image:url(./multimedia/grid/11.jpg) ;"></div>
+        <div class="tarjeta tarjetaAncha normal12 " style="background-image:url(./multimedia/grid/12.jpg) ;"></div>
+        <div class="tarjeta tarjetaAncha tarjetaAlta t1808 " style="background-image:url(./multimedia/grid/12.jpg) ;"></div>
+    </div>
+
+    <!-- -------------------- Footer -------------------- -->
+    <footer class="footer">
+
+        <a href="index.html"><img src="./multimedia/logoSinFondo.png" alt="logo"></a>
+        <div class="footer__contacto">
+            <div>Contacto</div>
+            <p>Dirección: Av. SiempreViva 123</p>
+            <P>Teléfono: +541125789614</P>
+            <p>Email: MatesRamos@gmail.com</p>
+        </div>
+        <div class="footer__secciones">
+            <div class="footer__titulo">Secciones</div>
+            <a href="index.html">
+                Inicio
+            </a>
+            <a href="./pages/mates.html">
+                Mates
+            </a>
+            <a href="./pages/termos.html">
+                Termos
+            </a>
+            <a href="./pages/bombillas.html">
+                Bombillas
+            </a>
+            <a href="./pages/bolsos_materos.html">
+                Bolsos
+            </a>
+            <a href="./pages/combos.html">
+                Combos
+            </a>
+        </div>
+        <div class="footer__redes">
+            <div class="footer__titulo">Seguinos en nuestras redes sociales!</div>
+            <div class="footer__iconos">
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i class='iredes face bx bxl-facebook'></i></a>
+                <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer"><i class='iredes wpp bx bxl-whatsapp' ></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class='iredes ig bx bxl-instagram' ></i></a>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ---------- Animation on Scroll Scripts ---------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <!-- ---------- JQuery---------- -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- ---------- Bootstrap Scripts ---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+    <!-- ---------- Mi JS ---------- -->
+    <script src="js/producto.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/cart.js"></script>
+  
+</body>
+
+</html>
